@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img{
+    @include media-min-lg{
+    margin-left: 5rem !important;
+    } 
+}
+.para-text, .paragraph{
+    line-height: 2rem;
+    @include media-min-md{
+    font-size: 23px;
+    line-height: 3rem;
+    }
+}
+.border-bottom{
+    border: white;
+    margin-bottom: 2rem;
+    border-style: 2px dotted white;
+}
+.dotted-border{
+  border-bottom: 2px dotted white;
+}
+.corner-border{
+    @include media-min-md{
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    padding: 25px;
+    padding-right: 0;
+}
+}
+.bottom-border{
+    @include media-min-md{
+        border-right: 2px solid white;
+        border-top: 2px solid white;
+        padding: 25px;
+        padding-left: 0;
+    }
+}
+.side-heading{
+  @include media-min-md{
+  font-size: 83px;
+}
+}
+.corner-dotted{
+    @include media-min-md{
+    border-left: 2px dotted white;
+    border-bottom: 2px dotted white;
+    padding: 25px;
+    padding-right: 0;
+}
+}
+.bottom-dotted{
+    @include media-min-md{
+        border-right: 2px dotted white;
+        border-top: 2px dotted white;
+        padding: 25px;
+        padding-left: 0;
+    }
+}
+.logo {
+    border: 2px dotted white;
+    padding: 10px;
+  }
+  
+  //font families
+  .banner-style
+  {
+    font-weight: 50rem;
+    @include media-min-lg-x{
+    font-family:'Impact';
+     font-size: 108px;
+  }
+}
+  .nav-bar
+  {
+    font-family:'vanio trial',serif;
+    font-size: 108px;
+  }
+  .side-heading{
+    font-family: 'Sulphur Point';
+  }
+  .side-topic{
+    font-size: 83px;
+  }
+  .perfect-size{
+  font-size:20px;
+    @include media-min-md{
+    font-size: 40px;
+  }
+}
+  //

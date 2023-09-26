@@ -1,0 +1,140 @@
+.banner {
+  background-image: url(/public/images/section\ 1-min.jpg);
+  width: 100%;
+  height: 800px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  @include media-min-lg{
+    height: 100vh;
+  }
+  .gradient-text {
+    background-image: linear-gradient(
+      90deg,
+      #fd006a 50%,
+      #c702a7 100%
+    ) !important;
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+.nav-bar {
+  font-family: "Vanio Trial";
+  size: 108px;
+}
+.bg-image {
+  @include media-min-md {
+    height: 100vh;
+  }
+}
+.btn-background {
+  background: linear-gradient(90deg, #fd006a 0%, #d700b5 100%);
+}
+button {
+  font-family: "Vanio Trial";
+}
+.header {
+  position: relative;
+}
+.align-line {
+  position: absolute;
+  right: -546px;
+  top: 400px;
+}
+
+// section2 about-us section
+.aboutus {
+  background-image: url(/public/images/Section\ 2\ About\ Us-min.jpg);
+  width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: auto;
+  font-family: "Sulphur Point", sans-serif !important;
+  @include media-min-md {
+    height: auto;
+  }
+  .paragraph {
+    @include media-min-md {
+      width: 50%;
+    }
+  }
+}
+
+// section3 our services
+.ourservices-section {
+  background-image: url(/public/images/Section\ 3\ Services-min.jpg);
+  width: 100%;
+  height: 80vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: auto;
+  font-family: "Sulphur Point", sans-serif !important;
+  @include media-min-md {
+    height: auto;
+  }
+}
+
+.icon-border {
+  border: 1.5px solid white;
+  border-style: dotted;
+}
+// pricing section starts
+.pricing {
+  background-image: url(/public/images/Section\ 4\ Pricing-min.jpg);
+  width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: auto;
+  @include media-min-md {
+    height: auto;
+  }
+  @include media-min-lg {
+    height: auto;
+  }
+}
+
+//portfolio
+.portfolio {
+  background-image: url(/public/images/Section\ 5\ Portfolio-min.jpg);
+  width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: auto;
+  @include media-min-md {
+    height: auto;
+  }
+  .portfolio-images {
+    img {
+      width: 100%;
+      padding: 0%;
+      @include media-min-md {
+        width: 700px;
+        height: 400px;
+      }
+    }
+  }
+}
+// Footer page
+.footer {
+  background-image: url(/public/images/Section\ 6\ Footer-min.jpg);
+  width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: auto;
+  @include media-min-md {
+    height: auto;
+  }
+}
+.banner-relative {
+  position: relative;
+}
+
+.banner-absolute {
+  @include media-min-lg {
+    position: absolute;
+    left: 60rem;
+    bottom: 10rem;
+  }
+  @include media-min-lg-x;
+}

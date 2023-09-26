@@ -1,0 +1,18 @@
+.con-sec-2 {
+  background-image: url(/public/images/contact/section\ 2.jpg);
+  width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  @include media-min-md {
+    height: auto;
+  }
+  @include media-min-lg {
+    height: auto;
+  }
+}
+.transparent {
+  background: rgba(0, 0, 0, 0.4) 0%;
+}
+.input-group-text i {
+  font-size: 15px;
+}

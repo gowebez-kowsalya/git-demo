@@ -1,0 +1,33 @@
+.pricing-banner {
+  width: 100%;
+  height: 800px;
+  background-image: url(/public/images/pricing-min/Section\ 1-min.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  @include media-min-md {
+    height: auto;
+  }
+}
+.pricing-sec-2 {
+  background-image: url(/public/images/pricing-min/Section\ 2-min.jpg);
+  width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  @include media-min-md {
+    height: auto;
+  }
+}
+.orange {
+  background-color: rgb(241, 133, 9);
+  color: white;
+  opacity: 0.7;
+}
+.pricing-sec3 {
+  background: url(/public/images/pricing-min/Section\ 3-min.jpg);
+  width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  @include media-min-md {
+    height: auto;
+  }
+}
